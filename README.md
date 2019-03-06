@@ -1,5 +1,15 @@
 # Building RESTful Web APIs with Node.js, Express, MongoDB and TypeScript
 
+
+## Data Base
+
+Create a db in mongodb
+
+```
+db name: task-planer_db
+collection name: tasks 
+```
+
 ## Requirements
 
 Install global TypeScript and TypeScript Node
