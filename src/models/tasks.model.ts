@@ -15,8 +15,8 @@ export const taskModelSchema = new Schema({
         ]
     },
     date: Date,
-    startHours: Date,
-    endHours: Date,
+    startHours: String,
+    endHours: String,
     status: {
         type: String, 
         enum: ['created', 'completed', 'unfinished'],
