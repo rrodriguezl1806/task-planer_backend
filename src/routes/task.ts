@@ -11,7 +11,7 @@ export class TaskRoutes {
     }
 
     public routes(api: any): void {
-
+  
         // Add new task
         api.post(`${this.url}/addNewTask`, this.tasksCtrl.addNewTask)
         

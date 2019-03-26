@@ -9,7 +9,7 @@ export class Routes {
         this.taskRoutes = new TaskRoutes()
     }
 
-    public routes(app: any): void {    
+    public routes(app: any): void { 
         this.taskRoutes.routes(app);
     }
  }
